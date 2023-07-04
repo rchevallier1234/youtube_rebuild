@@ -1,0 +1,47 @@
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#video {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#video article {
+    height: 300px;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#video article video{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#video article img{
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+#video article #info_video {
+    padding-left: 10%;
+    color: #777;
+}
+
+#video article #title {
+    text-indent: 2%;
+    font-weight: bold
+}
+
+#video article p {
+    height: 30px;
+}
+
