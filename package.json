@@ -1,0 +1,19 @@
+{
+  "name": "youtube_rebuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "front_end/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchevallier1234/youtube_rebuild.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchevallier1234/youtube_rebuild/issues"
+  },
+  "homepage": "https://github.com/rchevallier1234/youtube_rebuild#readme"
+}
