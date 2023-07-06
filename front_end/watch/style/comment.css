@@ -1,0 +1,68 @@
+#commentaire {
+    margin-top: 10px;
+}
+
+#stat_comment {
+    font-weight: bold;
+}
+
+#short_comment {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#add_comment {
+    display: flex;
+    align-items: center;
+}
+
+#add_comment form {
+    margin-left: 20px;
+    width: 100%;
+}
+
+#add_comment #new_comment{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+#add_comment #delete {
+    border: none;
+    background-color: white;
+    margin-left: 70%;
+}
+
+#add_comment button {
+    background-color: #ddd;
+    border-radius: 25px;
+}
+
+#see_comment article{
+    display: flex;
+    flex-direction: column;
+}
+
+#see_comment #comment_content {
+    display: flex;
+    align-items: center;
+}
+
+#see_comment p {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#see_comment #info {
+    margin-left: 35px;
+    margin-top: -20px;
+}
+
+#info img{
+    height: 20px;
+    width: auto;
+}
+
+
+
+

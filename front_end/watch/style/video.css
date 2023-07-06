@@ -1,0 +1,91 @@
+#video_watcher {
+    margin-left: 120px;
+    margin-top: 30px;
+    display: flex;
+    width: 64%;
+    height: auto;
+    flex-direction: column;
+    float: left;
+}
+
+#video_watcher h2 {
+    margin-top: 1%;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#video_info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#watcher_chaine {
+    display: flex;
+    line-height: 85%;
+    align-items: center;
+}
+
+#watcher_name_info {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#abonner_watcher {
+    margin-left: 5px;
+    font-size: x-small;
+}
+
+#watcher_chaine img {
+    height: 100%;
+    width: auto;
+}
+
+#watcher_chaine button {
+    background-color: #EEE;
+    border-radius: 20px;
+    margin-left: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+#watcher_chaine #abonement_watcher {
+    color: white;
+    background-color: black;
+    margin-left: 5%;
+    margin-right: 25%;
+}
+
+#watcher_chaine #like_watcher {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 1px solid #DDD;
+    width: 100px;
+}
+
+#watcher_chaine #dislike_watcher {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: 0px;
+}
+
+#watcher_chaine img {
+    height: 60%;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#description_watcher {
+    background-color: #DDD;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#description_watcher p {
+    margin: 10px 10px 10px 10px;
+}
+
+#description_watcher span {
+    font-weight: bold;
+}

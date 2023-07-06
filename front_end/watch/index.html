@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../style/header.css">
+        <link rel="stylesheet" type="text/css" href="style/video.css">
+        <link rel="stylesheet" type="text/css" href="style/suggestion.css">
+        <link rel="stylesheet" type="text/css" href="style/comment.css">
+        <title>youtube</title>
+        <link rel="icon" type="images/x-icon" href="images/logo.png">
+        <script src="../src/main.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div id="left">
+                <button id="detail_info" ><img src="../images/menu.png" alt="menu"></button>
+                <button id="home_button"><img src="../images/home.png" alt="home"></button>
+            </div>
+            <div id="center">
+                <input type="text" id="search_barre" placeholder="Rechercher">
+                <button id="search_button"><img src="../images/loupe.png" alt="loupe"></button>
+                <button id="vocal_button"><img src="../images/audio.png" alt="micro"></button>
+            </div>
+            <div id="right">
+                <button id="create"><img src="../images/video-camera.png" alt="create video"></button>
+                <button id="notif"><img src="../images/bell.png" alt="notification"></button>
+                <button id="user"><img src="../images/user.png" alt="user"></button>
+            </div>
+        </header>
+        <main>
+            <div id="video_watcher">
+                <video src="../video/gotaga1.mp4" controls=""></video>
+                <h2>name video</h2>
+                <div id="video_info">
+                    <div id="watcher_chaine">
+                        <img src="../images/user.png" alt="chaine">
+                        <div id="watcher_chaine_info">
+                            <span id="watcher_name_info">name</span>
+                            <br>
+                            <span id="abonner_watcher">10,2k abonné</span>
+                        </div>
+                        <button id="abonement_watcher">S'abonner</button>
+                        <button id="like_watcher"><img src="images/like.png">1,5k</button>
+                        <button id="dislike_watcher"><img src="images//dislike.png"></button>
+                        <button id="share_watcher"><img src="images/share.png">Partager</button>
+                        <button id="clip_watcher"><img src="images/clip.jpg">Extrais</button>
+                        <button id="save_watcher"><img src="images/save.png">Enregistrer</button>
+                        <button id="more_watcher">...</button>
+                    </div>
+                    <div id="description_watcher">
+                        <p>
+                            <span id="stat_video">34 k vues  il y a 9 mois</span><br>
+                            decription.
+                        </p>
+                    </div>
+                </div>
+                <div id="commentaire">
+                    <div id ="stat_comment">
+                        <span>102 commentaires</span>
+                        <button id="short_comment"><img src="images/short.png"> Trier par</button>
+                    </div>
+                    <div id="add_comment">
+                        <img src="../images/user.png" alt="user">
+                        <form action="submit">
+                            <input id="new_comment" type="text" placeholder="Ajouter un commentaire...">
+                            <br>
+                            <input id="delete" type="button" value="Annuler">
+                            <button> Ajouter un commentaire</button>
+                        </form>
+                    </div>
+                    <div id="see_comment">
+                        <article>
+                            <div id="comment_content">
+                                <img src="../images/user.png" alt="user">
+                                <p>
+                                    <span id="info_user_comment">@Cisouthebest il y a 9 mois</span>
+                                    <br>
+                                    le commantaire a afficher
+                                </p>
+                            </div>
+                            <div id="info">
+                                <button id="like_comment"><img src="images/like.png"> 64</button>
+                                <button id="dislike_comment"><img src="images/dislike.png"></button>
+                                <button id="answer_comment">Répondre</button>
+                            </div>
+                        </article>
+                        <article>
+                            <div id="comment_content">
+                                <img src="../images/user.png" alt="user">
+                                <p>
+                                    <span id="info_user_comment">@Cisouthebest il y a 9 mois</span>
+                                    <br>
+                                    le commantaire a afficher
+                                </p>
+                            </div>
+                            <div id="info">
+                                <button id="like_comment"><img src="images/like.png"> 64</button>
+                                <button id="dislike_comment"><img src="images/dislike.png"></button>
+                                <button id="answer_comment">Répondre</button>
+                            </div>
+                        </article>
+                        <article>
+                            <div id="comment_content">
+                                <img src="../images/user.png" alt="user">
+                                <p>
+                                    <span id="info_user_comment">@Cisouthebest il y a 9 mois</span>
+                                    <br>
+                                    le commantaire a afficher
+                                </p>
+                            </div>
+                            <div id="info">
+                                <button id="like_comment"><img src="images/like.png"> 64</button>
+                                <button id="dislike_comment"><img src="images/dislike.png"></button>
+                                <button id="answer_comment">Répondre</button>
+                            </div>
+                        </article>
+                        <article>
+                            <div id="comment_content">
+                                <img src="../images/user.png" alt="user">
+                                <p>
+                                    <span id="info_user_comment">@Cisouthebest il y a 9 mois</span>
+                                    <br>
+                                    le commantaire a afficher
+                                </p>
+                            </div>
+                            <div id="info">
+                                <button id="like_comment"><img src="images/like.png"> 64</button>
+                                <button id="dislike_comment"><img src="images/dislike.png"></button>
+                                <button id="answer_comment">Répondre</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div id="video">
+                <article href="test/index.html" id="video_element">
+                    <video controls=""><source src="../video/gotaga1.mp4" type="video/mp4"></video>
+                    <p><span id="title">Mais ils sont fous | Compilation | Tu mourras moins bête | ARTE</span>
+                    <br><span id="name_chaine">gotaga</span><br>
+                    <span id="vue">423k</span> - <span id="date">il y a 2 semaine</span></p>
+                </article>
+                <article href="test/index.html" id="video_element">
+                    <video controls=""><source src="../video/gotaga1.mp4" type="video/mp4"></video>
+                    <p><span id="title">Mais ils sont fous | Compilation | Tu mourras moins bête | ARTE</span>
+                    <br><span id="name_chaine">gotaga</span><br>
+                    <span id="vue">423k</span> - <span id="date">il y a 2 semaine</span></p>
+                </article>
+                <article href="test/index.html" id="video_element">
+                    <video controls=""><source src="../video/gotaga1.mp4" type="video/mp4"></video>
+                    <p><span id="title">Mais ils sont fous | Compilation | Tu mourras moins bête | ARTE</span>
+                    <br><span id="name_chaine">gotaga</span><br>
+                    <span id="vue">423k</span> - <span id="date">il y a 2 semaine</span></p>
+                </article>
+                <article href="test/index.html" id="video_element">
+                    <video controls=""><source src="../video/gotaga1.mp4" type="video/mp4"></video>
+                    <p><span id="title">Mais ils sont fous | Compilation | Tu mourras moins bête | ARTE</span>
+                    <br><span id="name_chaine">gotaga</span><br>
+                    <span id="vue">423k</span> - <span id="date">il y a 2 semaine</span></p>
+                </article>
+            </div>
+        </main>
+    </body>
+</html>
