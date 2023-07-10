@@ -1,3 +1,13 @@
+header button:hover {
+    background-color: #ddd;
+    outline: none;
+}
+
+header button:active {
+    background-color: #bbb;
+    outline: none;
+}
+
 header{
     display: flex;
     width: 100%;;
@@ -10,9 +20,14 @@ img {
     width : auto;
 }
 
-button {
+header button {
     border: none;
-    background-color: white;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border-radius: 100%;
+    transition: all 0.3s;
+    outline: none;
 }
 
 #left {
@@ -40,6 +55,8 @@ button {
     padding-left: 10px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
+    margin-top: 3px;
+    outline-width: 1px;
     float: left;
 }
 
@@ -47,6 +64,7 @@ button {
     height: 45px;
     width: 70px;
     border: 2px solid rgb(102, 102, 102);
+    border-radius: 0%;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     background-color: #EEE;

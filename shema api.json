@@ -1,0 +1,19 @@
+route
+
+/ : home
+
+/feed/library/ : video subjection
+/feed/subscription/
+/feed/history/
+
+/@name_chaine/ : chaine info
+/@name_chaine/videos/
+/@name_chaine/shorts/
+/@name_chaine/playlists/
+/@name_chaine/community/
+/@name_chaine/channels/
+/@name_chaine/about/
+
+/channels/#id_channel/: permet de crée et modiffier les video  
+
+/watch/id_video : regarder la video
